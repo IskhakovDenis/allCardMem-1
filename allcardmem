@@ -2,6 +2,5 @@ docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DA
 
 docker run -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=password -e POSTGRES_USER=member -e POSTGRES_DB=memberdb -d -v /var/lib/postgresql/data postgres
 
-git config --global user.name "DenisIskhakov"
 
-git config --global user.email "iskhakov.denis@mail.ru"
+
